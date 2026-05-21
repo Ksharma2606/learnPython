@@ -2,7 +2,11 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.defaultFormatter": "ms-python.python",
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.suggestOnTriggerCharacters": false,
   "editor.inlineSuggest.enabled": false,
   "python.defaultInterpreterPath": "C:\\Users\\anups\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
