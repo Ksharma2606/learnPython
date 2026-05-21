@@ -2,11 +2,16 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.defaultFormatter": "ms-python.python",
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
   "python.defaultInterpreterPath": "C:\\Users\\anups\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length=88"],
+  "python.formatting.blackArgs": [
+    "--line-length=88"
+  ],
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
   },
   "[jsonc]": {

@@ -8,12 +8,12 @@ computerchoice = random.choice("123")
 print("Computer chose", computerchoice)
 
 
-if player == int(computerchoice)
+if player == int(computerchoice):
     print("It's a tie")
 
 elif player == 1 and computerchoice == "2":
     print("Computer wins")
-
+    
 elif player == 1 and computerchoice == "3":
     print("Player wins")
 
