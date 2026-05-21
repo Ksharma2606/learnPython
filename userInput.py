@@ -13,7 +13,7 @@ if player == int(computerchoice):
 
 elif player == 1 and computerchoice == "2":
     print("Computer wins")
-    
+
 elif player == 1 and computerchoice == "3":
     print("Player wins")
 
