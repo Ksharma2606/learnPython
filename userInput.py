@@ -29,4 +29,3 @@ elif player == 3 and computerchoice == "1":
 elif player == 3 and computerchoice == "2":
     print("Player wins")
 
-print("Hello World")
