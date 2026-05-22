@@ -24,3 +24,6 @@ print(users)
 
 users.extend(['Robert','Jimmy'])
 print(users)
+
+users.extend(data)
+print(users)
