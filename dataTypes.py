@@ -6,7 +6,7 @@ first = "Karan"
 last = "Sharma"
 
 print(type(first))
-print(type(first) == str)
+print(type(first) is str)
 print(isinstance(first, str))
 
 
